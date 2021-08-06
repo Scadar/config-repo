@@ -2,14 +2,14 @@ spring:
     flyway:
         url: jdbc:postgresql://localhost:5433/ds_storage_db
         user: postgres
-        password: postgres
+        password: postgres21!
         enabled: true
         locations: classpath:/database/migration/
         baseline-on-migrate: true
         schemas: public
     datasource:
         username: postgres
-        password: postgres
+        password: postgres21!
         url: jdbc:postgresql://localhost:5433/ds_storage_db
         driver-class-name: org.postgresql.Driver
 
